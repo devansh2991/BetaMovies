@@ -1,0 +1,219 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    text-decoration: none;
+    border: 0;
+    box-sizing: border-box;
+    
+}
+#Header{
+    position: fixed;
+    background-color: #03002B;
+    width: 100%;
+    height: 5vmax;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: space-evenly;
+    justify-content: space-between;
+    box-shadow: black 0px 0px 20px 5px;
+    overflow: hidden;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 8vh;
+    background-color: rgba(255, 235, 205, 0);
+    padding-left: 1vw;
+}
+.logo .logoimage{
+    width: 6vw;
+}
+.logo .logoname{
+    width: 15vw;
+    padding-left: 10px;
+}
+
+
+.serchcontainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30vw;
+    background-color: #df4343;
+    margin-right: 2vh;
+}
+
+@media (max-width:600px) {
+    .logo{
+        height: 5vh;
+        margin-left: 2vh;
+    }
+
+    .logo .logoimage{
+        width: 10vw;
+    }
+
+    .logo .logoname{
+        width: 25vw;
+    }
+
+
+    .serchcontainer{
+        width: 2vw;
+        background-color: yellowgreen;
+    }
+}
+.searchboxx {
+    height: 50%;
+    width: 90%;
+    border-radius: 5px;
+    background-color: #D9D9D9;
+    display: flex;
+}
+.serchbox{
+    padding-left: 15px;
+    margin-right: 0.8%;
+    width: 80%;
+    background-color: transparent;
+    color: #969696;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 1vmax;
+}
+.searchboxx button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #4C48FF;
+    color: white;
+    height: 70%;
+    width: 20%;
+    margin-top: 0.60vh;
+    margin-right: 2%;
+    border-radius: 5px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 60%;
+}
+.searchboxx button img{
+    width: 25%;
+    padding-right: 5px;
+}
+#aabutton , #aabutton a{
+    background-color: #4C48FF;
+    color: white;
+}
+#body11{
+    background-color: #101010;
+    height: 1000px;
+    width: 100%;
+}
+.bgimg  img {
+    width: 100%;
+    box-shadow: black 0px 0px 10px 5px;
+}
+.bgimg .img2{
+    width: 5vw;
+    position: absolute;
+    top: 12vh;
+    right: 3vw;
+    box-shadow: black 0px 0px 0px 0px;
+}
+.bgimg .img1{
+    width: 35vw;
+    position: absolute;
+    top: 70vh;
+    right: 33%;
+    box-shadow: black 0px 0px 0px 0px;
+}
+.leftslide{
+    width: 4vw;
+    height: 4vw;
+    border-radius: 50%;
+    background-color: #101010;
+    position: absolute;
+    top: 50vh;
+    left: 8vw;
+    box-shadow: black 0px 2px 5px 1px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.leftslide span,.rightslide span{
+    font-size: 2.3rem;
+    color: white;
+}
+.rightslide{
+    width: 4vw;
+    height: 4vw;
+    border-radius: 50%;
+    background-color: #101010;
+    position: absolute;
+    top: 50vh;
+    right: 8vw;
+    box-shadow: black 0px 2px 5px 1px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.watchnow{
+    width: 10vw;
+    height: 6vh;
+    background-color: #4C48FF;
+    border-radius: 5px;
+    position: absolute;
+    top: 80vh;
+    right: 11vw;
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-size: x-large;
+    font-weight: 500;   
+}
+.suggetions{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #4b48ff00;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 30px;
+}
+.suggetionbtn{
+    height: 40px;
+    background-color: #4A4A4A;
+    color: white;
+    border-radius: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-family: "Roboto", sans-serif;
+    font-size: larger;
+    font-weight: 500;
+    margin: 3px 0px 3px 0px;
+}
+.suggetionbtn:hover{
+    background-color: #D9D9D9;
+    color: #101010;
+}
+@media screen and (max-width: 950px) {
+    .navbar {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .logo {
+        width: 30%;
+    }
+
+    .navbar{
+        width: 70%;
+    }
+    .serchcontainer{
+       display: none;
+    }
+}
